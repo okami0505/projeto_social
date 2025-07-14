@@ -10,7 +10,7 @@ html,
 body {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.651);
 }
 
 
@@ -34,4 +34,28 @@ section#telefone {
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}
+
+section#rede-social img {
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.204);
+
+
+}
+
+section#rede-social img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.498);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.294);
+    transition: transform .5s;
 }
